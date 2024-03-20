@@ -1,9 +1,16 @@
 import React from 'react';
+import {CssBaseline} from '@mui/material';
+import {Route , Switch} from 'react-router-dom';
 
 const App = () => {
   return (
     <div>
-    App
+    <CssBaseline/>
+    {/* using css baseline from material ui to make some good starting idea */}
+
+    <h1>
+      Welcome to Samplix
+    </h1>
     </div>
   )
 }
